@@ -1,0 +1,5 @@
+.services-section { padding: 4rem 5%; text-align: center; }
+.services-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 2rem; margin-top: 2rem; }
+.service-card { background: white; padding: 2rem; border-radius: 12px; border: 1px solid #ddd; box-shadow: 0 4px 6px rgba(0,0,0,0.05); }
+.price { font-size: 1.5rem; font-weight: bold; color: #2563eb; margin: 1rem 0; }
+.book-btn { background: #2563eb; color: white; border: none; padding: 0.7rem 1.5rem; border-radius: 5px; cursor: pointer; }

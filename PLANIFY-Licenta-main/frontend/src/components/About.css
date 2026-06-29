@@ -1,0 +1,63 @@
+.about-section {
+  padding: 5rem 5%;
+  background-color: #ffffff;
+  border-top: 1px solid #f1f5f9;
+}
+
+.about-container {
+  max-width: 1000px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.about-section h2 {
+  font-size: 2.5rem;
+  color: #1e293b;
+  margin-bottom: 1.5rem;
+}
+
+.about-section .highlight {
+  color: #7e22ce; /* Movul premium PLANIFY */
+}
+
+.about-description {
+  font-size: 1.15rem;
+  color: #64748b;
+  line-height: 1.6;
+  margin-bottom: 3.5rem;
+  padding: 0 1rem;
+}
+
+.about-features {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+}
+
+.feature-card {
+  flex: 1;
+  min-width: 280px;
+  background: #f8fafc;
+  padding: 2.5rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+  border-top: 4px solid #7e22ce; /* Linie mov sus pentru design */
+  transition: transform 0.3s ease;
+}
+
+.feature-card:hover {
+  transform: translateY(-5px);
+}
+
+.feature-card h3 {
+  color: #1e293b;
+  margin-bottom: 1rem;
+  font-size: 1.3rem;
+}
+
+.feature-card p {
+  color: #64748b;
+  line-height: 1.5;
+  font-size: 1rem;
+}

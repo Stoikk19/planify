@@ -1,0 +1,67 @@
+{
+  "nav": {
+    "about": "Despre noi",
+    "appointments": "Programările mele",
+    "logout": "Logout",
+    "myAccount": "Contul meu"
+  },
+  "hero": {
+    "title": "Top specialiști și saloane din zona ta",
+    "searchService": "Caută serviciu, salon",
+    "chooseCounty": "Alege județul",
+    "searchBtn": "Caută pe PLANIFY"
+  },
+ "about": {
+  "title": "Despre PLANIFY",
+  "description": "PLANIFY este o platformă de tip marketplace, creată pentru a simplifica modul în care clienții interacționează cu saloanele de beauty. Scopul nostru este să digitalizăm și să eficientizăm procesul de programare online.",
+  "forClients": "Pentru Clienți",
+  "forClientsDesc": "Găsești rapid cei mai buni specialiști din zona ta, compari prețuri și te programezi instantaneu, 24/7, direct de pe telefon sau laptop.",
+  "forSalons": "Pentru Saloane",
+  "forSalonsDesc": "Oferim un panou de control dedicat și ușor de folosit. Îți administrezi serviciile, prețurile și programările într-un singur loc."
+},
+  "auth": {
+    "login": "Intră în cont",
+    "register": "Creează cont nou",
+    "email": "Email",
+    "password": "Parolă",
+    "fullName": "Nume Complet",
+    "loginBtn": "Autentificare",
+    "registerBtn": "Înregistrare",
+    "noAccount": "Nu ai cont? Creează unul acum",
+    "hasAccount": "Ai deja un cont? Loghează-te aici"
+  },
+  "booking": {
+    "chooseService": "Alege serviciul",
+    "chooseDateTime": "Alege data și ora",
+    "confirm": "Confirmă Programarea",
+    "success": "Programare reușită!"
+  },
+  "dashboard": {
+    "history": "Istoric programări",
+    "received": "Programări Primite",
+    "accept": "Acceptă",
+    "refuse": "Refuză",
+    "cancel": "Anulează",
+    "active": "ACTIVA",
+    "addService": "Adaugă Serviciu"
+  },
+  "admin": {
+    "title": "Panou Suprem - Moderare Platformă",
+    "subtitle": "Aici poți vedea și gestiona toate serviciile adăugate de proprietarii de saloane.",
+    "delete": "Șterge"
+  },
+  "category": {
+  "home": "Acasă",
+  "newOnPlanify": "(Nou pe Planify)",
+  "noSalons": "Încă nu există saloane adăugate în această categorie.",
+  "frizerie": "Frizerie",
+  "coafor": "Coafor și hairstyling",
+  "unghii": "Unghii cu gel - Nails",
+  "cosmetica": "Cosmetică",
+  "masaj": "Masaj"
+},
+"categories": {
+  "title": "Programează-te online"
+}
+  
+}

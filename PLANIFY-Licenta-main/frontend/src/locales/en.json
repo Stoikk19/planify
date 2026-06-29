@@ -1,0 +1,99 @@
+{
+  "nav": {
+    "about": "About us",
+    "appointments": "My appointments",
+    "logout": "Logout",
+    "myAccount": "My account"
+  },
+  "hero": {
+    "title": "Top specialists and salons in your area",
+    "searchService": "Search service, salon",
+    "chooseCounty": "Choose county",
+    "searchBtn": "Search on PLANIFY"
+  },
+  "about": {
+    "title": "About PLANIFY",
+    "description": "PLANIFY is a marketplace platform created to simplify the way clients interact with beauty salons. Our goal is to digitalize and streamline the online booking process.",
+    "forClients": "For Clients",
+    "forClientsDesc": "Quickly find the best specialists in your area, compare prices and book instantly, 24/7, directly from your phone or laptop.",
+    "forSalons": "For Salons",
+    "forSalonsDesc": "We offer a dedicated and easy-to-use control panel. Manage your services, prices and appointments all in one place."
+  },
+  "auth": {
+    "login": "Sign in",
+    "register": "Create new account",
+    "email": "Email",
+    "password": "Password",
+    "fullName": "Full Name",
+    "loginBtn": "Login",
+    "registerBtn": "Register",
+    "noAccount": "No account? Create one now",
+    "hasAccount": "Already have an account? Log in here",
+    "loginError": "Login error",
+    "roleClient": "I'm a Client (I want to book)",
+    "roleOwner": "I'm an Owner (I have a salon)"
+  },
+  "booking": {
+    "chooseService": "Choose service",
+    "chooseDateTime": "Choose date and time",
+    "confirm": "Confirm Appointment",
+    "success": "Appointment confirmed!",
+    "loginRequired": "You must be logged in to book!",
+    "selectAll": "Please select a service and a time!"
+  },
+  "dashboard": {
+    "accountDetails": "Account details",
+    "history": "Appointment history",
+    "name": "Name",
+    "email": "Email",
+    "phone": "Phone",
+    "phoneEmpty": "Not specified",
+    "noAppointments": "You have no appointments.",
+    "cancel": "Cancel",
+    "cancelConfirm": "Are you sure you want to cancel?",
+    "received": "Received Appointments",
+    "accept": "Accept",
+    "refuse": "Refuse",
+    "active": "ACTIVE",
+    "addService": "Add Service",
+    "serviceName": "Name",
+    "servicePrice": "Price",
+    "serviceAdded": "Service added!",
+    "createSalon": "Create your salon",
+    "salonName": "Salon name",
+    "salonAddress": "Address (e.g. Ploiești)",
+    "createSalonBtn": "Create Salon",
+    "catFrizerie": "Barbershop",
+    "catCoafor": "Hair salon",
+    "catUnghii": "Nail gel",
+    "catCosmetica": "Cosmetics",
+    "catMasaj": "Massage"
+  },
+  "admin": {
+    "title": "Supreme Panel - Platform Moderation",
+    "subtitle": "Here you can view and manage all services added by salon owners.",
+    "activeServices": "Active services on platform",
+    "colService": "Service Name",
+    "colSalon": "Belongs to Salon",
+    "colPrice": "Price",
+    "colDuration": "Duration",
+    "colActions": "Actions",
+    "noSalon": "No salon assigned",
+    "delete": "Delete",
+    "deleteConfirm": "Are you sure you want to permanently delete this service?",
+    "empty": "No services added yet on the platform."
+  },
+  "category": {
+  "home": "Home",
+  "newOnPlanify": "(New on Planify)",
+  "noSalons": "No salons added in this category yet.",
+  "frizerie": "Barbershop",
+  "coafor": "Hair salon",
+  "unghii": "Nail gel",
+  "cosmetica": "Cosmetics",
+  "masaj": "Massage"
+},
+"categories": {
+  "title": "Book online"
+}
+}

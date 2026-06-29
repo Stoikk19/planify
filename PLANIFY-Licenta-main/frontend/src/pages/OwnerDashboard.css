@@ -1,0 +1,65 @@
+.dashboard-container-full { display: flex; min-height: 90vh; background-color: #f1f5f9; }
+.owner-sidebar { width: 300px; background: white; padding: 2rem; border-right: 1px solid #e2e8f0; }
+.owner-sidebar h2 { color: #7e22ce; }
+.owner-main-content { flex: 1; padding: 3rem; }
+.owner-app-card { background: white; display: flex; align-items: center; padding: 1.5rem; border-radius: 12px; margin-bottom: 1rem; border-left: 6px solid #7e22ce; box-shadow: 0 2px 4px rgba(0,0,0,0.05); }
+.app-time { border-right: 1px solid #eee; padding-right: 2rem; margin-right: 2rem; min-width: 100px; }
+.service-tag { background: #f3e8ff; color: #7e22ce; padding: 4px 10px; border-radius: 50px; font-weight: bold; font-size: 0.8rem; }
+.app-actions-owner { margin-left: auto; display: flex; gap: 10px; }
+
+.btn-approve { background: #22c55e; color: white; border: none; padding: 10px; border-radius: 6px; cursor: pointer; font-weight: bold; }
+.btn-reject { background: #ef4444; color: white; border: none; padding: 10px; border-radius: 6px; cursor: pointer; font-weight: bold; }
+
+.final-status { font-weight: bold; padding: 5px 15px; border-radius: 50px; font-size: 0.8rem; }
+.final-status.confirmata { background: #dcfce7; color: #166534; }
+.final-status.refuzata { background: #fee2e2; color: #991b1b; }
+.final-status.anulata { background: #f1f5f9; color: #64748b; }
+.create-salon-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 80vh;
+}
+
+.create-salon-card {
+  background: white;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+  width: 100%;
+  max-width: 450px;
+}
+
+.create-salon-card h2 {
+  margin-bottom: 24px;
+  color: #1e1e2e;
+  font-size: 1.8rem;
+}
+
+.create-salon-card input,
+.create-salon-card select {
+  width: 100%;
+  padding: 12px 16px;
+  margin-bottom: 16px;
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  font-size: 1rem;
+  box-sizing: border-box;
+}
+
+.create-salon-card button {
+  width: 100%;
+  padding: 14px;
+  background: #7c3aed;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.create-salon-card button:hover {
+  background: #6d28d9;
+}

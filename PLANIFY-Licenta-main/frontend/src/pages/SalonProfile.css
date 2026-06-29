@@ -1,0 +1,11 @@
+.salon-profile-container { padding: 0 0 5rem 0; background: #f8fafc; }
+.salon-header-hero { background: #7e22ce; color: white; padding: 4rem 5%; text-align: center; }
+.booking-section { display: grid; grid-template-columns: 1fr 1fr; gap: 3rem; padding: 3rem 5%; max-width: 1100px; margin: 0 auto; }
+
+.services-list-profile { display: flex; flex-direction: column; gap: 10px; margin-top: 1rem; }
+.service-item-pick { background: white; padding: 1.2rem; border-radius: 10px; border: 2px solid #e2e8f0; cursor: pointer; display: flex; justify-content: space-between; transition: 0.3s; }
+.service-item-pick.active { border-color: #7e22ce; background: #f3e8ff; }
+
+.date-picker-mero { width: 100%; padding: 1rem; border-radius: 10px; border: 1px solid #cbd5e1; margin: 1rem 0; font-family: inherit; }
+.confirm-booking-btn { width: 100%; background: #7e22ce; color: white; border: none; padding: 1.2rem; border-radius: 10px; font-weight: bold; font-size: 1.1rem; cursor: pointer; margin-top: 1rem; }
+.confirm-booking-btn:hover { background: #581c87; }

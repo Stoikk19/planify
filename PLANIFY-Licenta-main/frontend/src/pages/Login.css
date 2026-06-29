@@ -1,0 +1,75 @@
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 80vh;
+  background-color: #f8fafc;
+  padding: 2rem;
+}
+
+.login-card {
+  background: white;
+  padding: 3rem 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+  width: 100%;
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem; /* Spațiu între elemente */
+  text-align: center;
+}
+
+.login-card h2 {
+  color: #1e293b;
+  margin-bottom: 1rem;
+}
+
+.login-card input, 
+.login-card select {
+  width: 100%;
+  padding: 0.8rem;
+  border: 1px solid #cbd5e1;
+  border-radius: 8px;
+  font-size: 1rem;
+  box-sizing: border-box;
+  outline: none;
+}
+
+.login-card input:focus,
+.login-card select:focus {
+  border-color: #7e22ce;
+}
+
+.login-submit-btn {
+  background: #7e22ce; /* Albastru aprins */
+  color: white;
+  border: none;
+  padding: 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 1.1rem;
+  margin-top: 1rem;
+  transition: background 0.3s;
+}
+
+.login-submit-btn:hover {
+  background: #7e22ce;
+}
+
+.login-footer {
+  margin-top: 1.5rem;
+  font-size: 0.9rem;
+  color: #7e22ce;
+}
+
+.login-footer a {
+  color: #7e22ce;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.login-footer a:hover {
+  text-decoration: underline;
+}
