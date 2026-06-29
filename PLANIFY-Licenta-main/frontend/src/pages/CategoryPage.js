@@ -49,4 +49,8 @@ const CategoryPage = () => {
           <p>{t('category.noSalons')}</p>
         )}
       </div>
-  
+      </div>
+  );
+};
+
+export default CategoryPage;
