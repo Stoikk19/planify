@@ -3,14 +3,12 @@ import { useParams, useNavigate } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import './CategoryPage.css';
 
-
 const CategoryPage = () => {
   const { categorie } = useParams();
   const { t } = useTranslation();
   const navigate = useNavigate();
-  const [saloane, setSaloane] = useState([]); // Aici vom ține saloanele reale
+  const [saloane, setSaloane] = useState([]);
 
-  // Efectul ăsta rulează când intri pe pagină și cere datele de la backend
   useEffect(() => {
     fetch(`https://planify-backend-z13v.onrender.com/salons/categorie/${categorie}`)
       .then(res => res.json())
@@ -25,7 +23,7 @@ const CategoryPage = () => {
       <div className="breadcrumb">
         <span>{t('category.home')}</span> » <span className="current">{titluCategorie}</span>
       </div>
-      
+
       <h1>{titluCategorie}</h1>
 
       <div className="salons-grid">
@@ -49,7 +47,7 @@ const CategoryPage = () => {
           <p>{t('category.noSalons')}</p>
         )}
       </div>
-      </div>
+    </div>
   );
 };
 
