@@ -10,7 +10,7 @@ const ClientDashboard = () => {
 
   useEffect(() => {
     if (user) {
-      fetch(`http://localhost:5000/appointments/client/${user.id}`)
+      fetch(`https://planify-backend-z13v.onrender.com/appointments/client/${user.id}`)
         .then(res => res.json())
         .then(data => setAppointments(data));
     }
@@ -18,7 +18,7 @@ const ClientDashboard = () => {
 
   const handleCancel = async (id) => {
     if (window.confirm(t('dashboard.cancelConfirm'))) {
-      await fetch(`http://localhost:5000/appointments/cancel/${id}`, { method: 'PUT' });
+      await fetch(`https://planify-backend-z13v.onrender.com/appointments/cancel/${id}`, { method: 'PUT' });
       window.location.reload();
     }
   };

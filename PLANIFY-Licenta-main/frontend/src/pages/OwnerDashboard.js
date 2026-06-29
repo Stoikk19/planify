@@ -12,11 +12,11 @@ const OwnerDashboard = () => {
 
   const fetchData = async () => {
     try {
-      const resSalon = await fetch(`http://localhost:5000/my-salon/${user.id}`);
+      const resSalon = await fetch(`https://planify-backend-z13v.onrender.com/my-salon/${user.id}`);
       const salonData = await resSalon.json();
       setSalon(salonData);
       if (salonData) {
-        const resApp = await fetch(`http://localhost:5000/salon-appointments/${user.id}`);
+        const resApp = await fetch(`https://planify-backend-z13v.onrender.com/salon-appointments/${user.id}`);
         const appData = await resApp.json();
         setAppointments(appData);
       }
@@ -26,7 +26,7 @@ const OwnerDashboard = () => {
   useEffect(() => { fetchData(); }, [user.id]);
 
   const updateStatus = async (id, newStatus) => {
-    await fetch(`http://localhost:5000/appointments/status/${id}`, {
+    await fetch(`https://planify-backend-z13v.onrender.com/appointments/status/${id}`, {
       method: 'PUT',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ status: newStatus })
@@ -36,7 +36,7 @@ const OwnerDashboard = () => {
 
   const createSalon = async (e) => {
     e.preventDefault();
-    await fetch('http://localhost:5000/salons', {
+    await fetch('https://planify-backend-z13v.onrender.com/salons', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ ...salonForm, ownerId: user.id })
@@ -73,7 +73,7 @@ const OwnerDashboard = () => {
         <h3>{t('dashboard.addService')}</h3>
         <form className="mini-form" onSubmit={async (e) => {
           e.preventDefault();
-          await fetch('http://localhost:5000/services', {
+          await fetch('https://planify-backend-z13v.onrender.com/services', {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify({ ...serviceForm, salonId: salon.id })

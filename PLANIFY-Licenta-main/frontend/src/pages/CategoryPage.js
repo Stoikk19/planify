@@ -12,7 +12,7 @@ const CategoryPage = () => {
 
   // Efectul ăsta rulează când intri pe pagină și cere datele de la backend
   useEffect(() => {
-    fetch(`http://localhost:5000/salons/categorie/${categorie}`)
+    fetch(`https://planify-backend-z13v.onrender.com/salons/categorie/${categorie}`)
       .then(res => res.json())
       .then(data => setSaloane(data))
       .catch(err => console.error(err));
@@ -49,8 +49,4 @@ const CategoryPage = () => {
           <p>{t('category.noSalons')}</p>
         )}
       </div>
-    </div>
-  );
-};
-
-export default CategoryPage;
+  

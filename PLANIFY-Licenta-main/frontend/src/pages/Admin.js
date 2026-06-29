@@ -8,7 +8,7 @@ const Admin = () => {
 
   const fetchServices = async () => {
     try {
-      const res = await fetch('http://localhost:5000/services-admin');
+      const res = await fetch('https://planify-backend-z13v.onrender.com/services-admin');
       const data = await res.json();
       setServices(data);
     } catch (err) {
@@ -21,7 +21,7 @@ const Admin = () => {
   const deleteService = async (id) => {
     if (window.confirm(t('admin.deleteConfirm'))) {
       try {
-        await fetch(`http://localhost:5000/services/${id}`, { method: 'DELETE' });
+        await fetch(`https://planify-backend-z13v.onrender.com/services/${id}`, { method: 'DELETE' });
         fetchServices();
       } catch (err) {
         console.error(err);

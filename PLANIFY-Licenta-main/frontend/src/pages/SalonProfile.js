@@ -14,7 +14,7 @@ const SalonProfile = () => {
   const [selectedDate, setSelectedDate] = useState('');
 
   useEffect(() => {
-    fetch(`http://localhost:5000/salons/${id}`)
+    fetch(`https://planify-backend-z13v.onrender.com/salons/${id}`)
       .then(res => res.json())
       .then(data => setSalon(data));
   }, [id]);
@@ -23,7 +23,7 @@ const SalonProfile = () => {
     if (!user) return alert(t('booking.loginRequired') || "Trebuie să fii logat!");
     if (!selectedService || !selectedDate) return alert(t('booking.selectAll') || "Alege un serviciu și o oră!");
 
-    const res = await fetch('http://localhost:5000/appointments', {
+    const res = await fetch('https://planify-backend-z13v.onrender.com/appointments', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({

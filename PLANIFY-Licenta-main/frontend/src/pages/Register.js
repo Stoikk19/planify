@@ -13,7 +13,7 @@ const Register = () => {
   const onSubmitForm = async (e) => {
     e.preventDefault();
     try {
-      const res = await fetch('http://localhost:5000/register', {
+      const res = await fetch('https://planify-backend-z13v.onrender.com/register', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(inputs)

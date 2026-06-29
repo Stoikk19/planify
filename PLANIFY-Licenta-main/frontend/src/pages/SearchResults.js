@@ -12,7 +12,7 @@ const SearchResults = () => {
 
   useEffect(() => {
     // Cerem rezultatele de la server
-    fetch(`http://localhost:5000/search?query=${query}&city=${city}`)
+    fetch(`https://planify-backend-z13v.onrender.com/search?query=${query}&city=${city}`)
       .then(res => res.json())
       .then(data => setSaloane(data))
       .catch(err => console.error(err));
