@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 const dns = require('dns');
-require('dotenv').config({ path: '../.env' });
+require('dotenv').config();
 
 // Forteaza DNS-ul Google ca sa rezolve adresele MongoDB Atlas
 dns.setServers(['8.8.8.8', '8.8.4.4']);
